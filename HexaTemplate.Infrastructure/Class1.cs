@@ -1,4 +1,4 @@
-﻿namespace HexaTemplate.Infrastructure;
+﻿namespace jlmoll.HexaTemplate.Infrastructure;
 
 public class Class1
 {
