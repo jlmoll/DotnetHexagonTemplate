@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "TuNombre",
+  "classifications": ["WebAPI", "Hexagonal Architecture"],
+  "identity": "jlmoll.HexaTemplate",
+  "name": "Hexagonal WebAPI template",
+  "shortName": "hexagonapi",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "HexaTemplate",
+  "preferNameDirectory": true,
+  "primaryOutputs": [
+    { "path": "HexaTemplate.Api/HexaTemplate.Api.csproj" },
+    { "path": "HexaTemplate.Domain/HexaTemplate.Domain.csproj" },
+    { "path": "HexaTemplate.Application/HexaTemplate.Application.csproj" },
+    { "path": "HexaTemplate.Infrastructure/HexaTemplate.Infrastructure.csproj" }
+  ],
+  "symbols": {
+    "company": {
+      "type": "parameter",
+      "dataType": "string",
+      "defaultValue": "YourCompany",
+      "replaces": "jlmoll",
+      "description": "The company name which is meant to be used in namespaces and other relevant places."
+    }
+  }
+}
