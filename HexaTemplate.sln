@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "HexaTemplate.Api\Hex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "HexaTemplate.Domain\HexaTemplate.Domain.csproj", "{113AE2E0-CCAC-4FBD-AA36-AB4906FC5E59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto", "HexaTemplate.Dto\HexaTemplate.Dto.csproj", "{BAC67492-78A0-493C-B9F7-0E5742E140F7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "HexaTemplate.Application\HexaTemplate.Application.csproj", "{03157756-EDA4-4496-94D2-43982A450275}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "HexaTemplate.Infrastructure\HexaTemplate.Infrastructure.csproj", "{2D7AF9E6-B26D-4F88-8EB3-B0A8B2D9D147}"
@@ -15,9 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{79AE3FC4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Tests", "tests\HexaTemplate.Api.Tests\HexaTemplate.Api.Tests.csproj", "{FE57825E-47B6-4D95-941F-7E90F6A960E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Tests", "tests\HexaTemplate.Application.Tests\HexaTemplate.Application.Tests.csproj", "{2F68A6C3-08E2-443A-A40C-67951995DA3B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "tests\HexaTemplate.Domain.Tests\HexaTemplate.Domain.Tests.csproj", "{1EBF5557-6A29-49CF-9005-82F9AC03FA77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto.Tests", "tests\HexaTemplate.Dto.Tests\HexaTemplate.Dto.Tests.csproj", "{99826C7A-4CA8-4F57-933B-7C32B53BA621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Tests", "tests\HexaTemplate.Application.Tests\HexaTemplate.Application.Tests.csproj", "{2F68A6C3-08E2-443A-A40C-67951995DA3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Tests", "tests\HexaTemplate.Infrastructure.Tests\HexaTemplate.Infrastructure.Tests.csproj", "{93314775-7623-414F-B04A-4EB4D1294475}"
 EndProject
@@ -62,11 +66,20 @@ Global
 		{93314775-7623-414F-B04A-4EB4D1294475}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93314775-7623-414F-B04A-4EB4D1294475}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93314775-7623-414F-B04A-4EB4D1294475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99826C7A-4CA8-4F57-933B-7C32B53BA621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99826C7A-4CA8-4F57-933B-7C32B53BA621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99826C7A-4CA8-4F57-933B-7C32B53BA621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99826C7A-4CA8-4F57-933B-7C32B53BA621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FE57825E-47B6-4D95-941F-7E90F6A960E1} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
 		{2F68A6C3-08E2-443A-A40C-67951995DA3B} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
 		{1EBF5557-6A29-49CF-9005-82F9AC03FA77} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
 		{93314775-7623-414F-B04A-4EB4D1294475} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
+		{99826C7A-4CA8-4F57-933B-7C32B53BA621} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
 	EndGlobalSection
 EndGlobal
