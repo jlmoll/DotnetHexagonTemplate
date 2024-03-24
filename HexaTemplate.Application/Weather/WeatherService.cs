@@ -1,15 +1,11 @@
-using HexaTemplate.Application.Weather.Forecast;
+using jlmoll.HexaTemplate.Application.Weather.Forecast;
 using jlmoll.HexaTemplate.Domain.Weather;
 
 namespace jlmoll.HexaTemplate.Application.Weather
 {
-    public class WeatherService : IWeatherService
+    public class WeatherService(IWeatherAdapter weatherAdapter) : IWeatherService
     {
-        private readonly IWeatherAdapter _weatherAdapter;
-        public WeatherService(IWeatherAdapter weatherAdapter)
-        {
-            _weatherAdapter = weatherAdapter;
-        }
+        private readonly IWeatherAdapter _weatherAdapter = weatherAdapter;
 
         public async Task<IEnumerable<DailySummary>> GetWeatherForecastAsync(WeatherForecastQuery query)
         {

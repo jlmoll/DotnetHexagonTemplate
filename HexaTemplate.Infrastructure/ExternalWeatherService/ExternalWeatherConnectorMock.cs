@@ -1,5 +1,4 @@
-using System.Security.Cryptography;
-using HexaTemplate.Application.Weather.Forecast;
+using jlmoll.HexaTemplate.Application.Weather.Forecast;
 using jlmoll.HexaTemplate.Application.Weather;
 using jlmoll.HexaTemplate.Domain.Common.ValueObjects;
 using jlmoll.HexaTemplate.Domain.Weather;

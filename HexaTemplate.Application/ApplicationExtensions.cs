@@ -1,5 +1,4 @@
-﻿using jlmoll.HexaTemplate.Application.Common;
-using jlmoll.HexaTemplate.Application.Weather;
+﻿using jlmoll.HexaTemplate.Application.Weather;
 using jlmoll.HexaTemplate.Application.Weather.Forecast;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,5 +11,6 @@ public static class ApplicationExtensions
     {
         services.AddScoped<IWeatherService, WeatherService>();
         services.AddScoped<IWeatherForecastRequestHandler, WeatherForecastRequestHandler>();
+        services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
     }
 }

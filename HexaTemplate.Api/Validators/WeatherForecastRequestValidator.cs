@@ -2,7 +2,7 @@ using FluentValidation;
 using jlmoll.HexaTemplate.Dto.Weather.Common;
 using jlmoll.HexaTemplate.Dto.Weather.Forecast;
 
-namespace jlmoll.HexaTemplate.Application.Weather.Forecast;
+namespace jlmoll.HexaTemplate.Api.Validators;
 
 public class WeatherForecastRequestValidator : AbstractValidator<WeatherForecastRequest>
 {

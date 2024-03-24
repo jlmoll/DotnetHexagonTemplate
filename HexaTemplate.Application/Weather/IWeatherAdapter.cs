@@ -1,4 +1,4 @@
-using HexaTemplate.Application.Weather.Forecast;
+using jlmoll.HexaTemplate.Application.Weather.Forecast;
 using jlmoll.HexaTemplate.Domain.Weather;
 
 namespace jlmoll.HexaTemplate.Application.Weather;

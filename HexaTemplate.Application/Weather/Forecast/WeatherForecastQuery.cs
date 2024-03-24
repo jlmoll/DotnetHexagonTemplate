@@ -1,6 +1,6 @@
 using jlmoll.HexaTemplate.Domain.Common.ValueObjects;
 
-namespace HexaTemplate.Application.Weather.Forecast;
+namespace jlmoll.HexaTemplate.Application.Weather.Forecast;
 
 public class WeatherForecastQuery
 {

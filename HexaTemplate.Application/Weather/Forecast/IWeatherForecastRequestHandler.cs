@@ -1,8 +1,8 @@
 using jlmoll.HexaTemplate.Application.Common;
-using jlmoll.HexaTemplate.Dto.Weather.Forecast;
+using jlmoll.HexaTemplate.Domain.Weather;
 
 namespace jlmoll.HexaTemplate.Application.Weather.Forecast;
 
-public interface IWeatherForecastRequestHandler : IRequestHandler<WeatherForecastRequest, WeatherForecastResponse>
+public interface IWeatherForecastRequestHandler : IRequestHandler<WeatherForecastQuery, IEnumerable<DailySummary>>
 {
 }

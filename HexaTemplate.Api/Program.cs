@@ -1,4 +1,8 @@
+using AutoMapper;
+using FluentValidation;
 using jlmoll.HexaTemplate.Application.Weather.Forecast;
+using jlmoll.HexaTemplate.Api.Validators;
+using jlmoll.HexaTemplate.Dto.Weather.Common;
 using jlmoll.HexaTemplate.Dto.Weather.Forecast;
 using jlmoll.HexaTemplate.Infrastructure;
 
@@ -9,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddScoped<IValidator<WeatherForecastRequest>, WeatherForecastRequestValidator>();
 
 var app = builder.Build();
 
@@ -26,16 +31,12 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-app.MapPost("/weatherforecast", (WeatherForecastRequest rq, IWeatherForecastRequestHandler handler) =>
+app.MapPost("/weatherforecast", async (WeatherForecastRequest rq, IMapper mapper, IWeatherForecastRequestHandler handler, IValidator<WeatherForecastRequest> validator) =>
 {
-    return handler.Handle(rq, new CancellationToken());
+    await validator.ValidateAndThrowAsync(rq);
+    return new WeatherForecastResponse { DailySummaries = (await handler.Handle(mapper.Map<WeatherForecastQuery>(rq), new CancellationToken())).Select(x => mapper.Map<DailySummaryDto>(x)).ToList() };
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
 app.Run();
-
-record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
