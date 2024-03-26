@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <ItemGroup>
-        <ProjectReference Include="..\HexaTemplate.Application\HexaTemplate.Application.csproj" />
+        <ProjectReference Include="..\Application\HexaTemplate.Application.csproj" />
     </ItemGroup>
 
     <ItemGroup>

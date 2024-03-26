@@ -2,8 +2,8 @@
 
     <ItemGroup>
         <ProjectReference
-            Include="..\HexaTemplate.Infrastructure\HexaTemplate.Infrastructure.csproj" />
-        <ProjectReference Include="..\HexaTemplate.Dto\HexaTemplate.Dto.csproj" />
+            Include="..\Infrastructure\HexaTemplate.Infrastructure.csproj" />
+        <ProjectReference Include="..\Dto\HexaTemplate.Dto.csproj" />
     </ItemGroup>
 
     <PropertyGroup>

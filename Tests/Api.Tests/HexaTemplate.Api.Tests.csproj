@@ -10,7 +10,7 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\..\HexaTemplate.Api\HexaTemplate.Api.csproj" />
+    <ProjectReference Include="..\..\Api\HexaTemplate.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

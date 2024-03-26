@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\HexaTemplate.Dto\HexaTemplate.Dto.csproj" />
+    <ProjectReference Include="..\..\Dto\HexaTemplate.Dto.csproj" />
   </ItemGroup>
 
   <ItemGroup>
