@@ -4,7 +4,7 @@
             "name": "C#: HexaTemplate.Api [Default Configuration]",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/HexaTemplate.Api/HexaTemplate.Api.csproj"
+            "projectPath": "${workspaceFolder}/Api/HexaTemplate.Api.csproj"
         }
     ]
 }
