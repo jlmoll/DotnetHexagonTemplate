@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "C#: HexaTemplate.Api [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/HexaTemplate.Api/HexaTemplate.Api.csproj"
+        }
+    ]
+}
