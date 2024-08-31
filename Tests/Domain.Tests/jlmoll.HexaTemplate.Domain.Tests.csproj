@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Domain\HexaTemplate.Domain.csproj" />
+    <ProjectReference Include="../../Domain/jlmoll.HexaTemplate.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

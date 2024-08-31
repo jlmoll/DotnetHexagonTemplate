@@ -8,9 +8,9 @@
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <ProjectReference Include="..\..\Api\HexaTemplate.Api.csproj" />
+    <ProjectReference Include="../../Dto/jlmoll.HexaTemplate.Dto.csproj" />
   </ItemGroup>
 
   <ItemGroup>

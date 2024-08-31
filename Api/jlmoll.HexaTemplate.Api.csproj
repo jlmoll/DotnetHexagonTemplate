@@ -1,9 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <ItemGroup>
-        <ProjectReference
-            Include="..\Infrastructure\HexaTemplate.Infrastructure.csproj" />
-        <ProjectReference Include="..\Dto\HexaTemplate.Dto.csproj" />
+        <ProjectReference Include="../Dto/jlmoll.HexaTemplate.Dto.csproj" />
+        <ProjectReference Include="../Infrastructure/jlmoll.HexaTemplate.Infrastructure.csproj" />
     </ItemGroup>
 
     <PropertyGroup>

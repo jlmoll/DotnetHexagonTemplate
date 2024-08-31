@@ -3,35 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\HexaTemplate.Api.csproj", "{92084467-BAD6-4820-BE7D-E9747062B1FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Api", "Api\jlmoll.HexaTemplate.Api.csproj", "{92084467-BAD6-4820-BE7D-E9747062B1FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\HexaTemplate.Domain.csproj", "{113AE2E0-CCAC-4FBD-AA36-AB4906FC5E59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Domain", "Domain\jlmoll.HexaTemplate.Domain.csproj", "{113AE2E0-CCAC-4FBD-AA36-AB4906FC5E59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto", "Dto\HexaTemplate.Dto.csproj", "{BAC67492-78A0-493C-B9F7-0E5742E140F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Dto", "Dto\jlmoll.HexaTemplate.Dto.csproj", "{BAC67492-78A0-493C-B9F7-0E5742E140F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\HexaTemplate.Application.csproj", "{03157756-EDA4-4496-94D2-43982A450275}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Application", "Application\jlmoll.HexaTemplate.Application.csproj", "{03157756-EDA4-4496-94D2-43982A450275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\HexaTemplate.Infrastructure.csproj", "{2D7AF9E6-B26D-4F88-8EB3-B0A8B2D9D147}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Infrastructure", "Infrastructure\jlmoll.HexaTemplate.Infrastructure.csproj", "{2D7AF9E6-B26D-4F88-8EB3-B0A8B2D9D147}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Tests", "Tests\Api.Tests\HexaTemplate.Api.Tests.csproj", "{FE57825E-47B6-4D95-941F-7E90F6A960E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Api.Tests", "Tests\Api.Tests\jlmoll.HexaTemplate.Api.Tests.csproj", "{FE57825E-47B6-4D95-941F-7E90F6A960E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Tests\Domain.Tests\HexaTemplate.Domain.Tests.csproj", "{1EBF5557-6A29-49CF-9005-82F9AC03FA77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Domain.Tests", "Tests\Domain.Tests\jlmoll.HexaTemplate.Domain.Tests.csproj", "{1EBF5557-6A29-49CF-9005-82F9AC03FA77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto.Tests", "Tests\Dto.Tests\HexaTemplate.Dto.Tests.csproj", "{99826C7A-4CA8-4F57-933B-7C32B53BA621}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Dto.Tests", "Tests\Dto.Tests\jlmoll.HexaTemplate.Dto.Tests.csproj", "{99826C7A-4CA8-4F57-933B-7C32B53BA621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Tests", "Tests\Application.Tests\HexaTemplate.Application.Tests.csproj", "{2F68A6C3-08E2-443A-A40C-67951995DA3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Application.Tests", "Tests\Application.Tests\jlmoll.HexaTemplate.Application.Tests.csproj", "{2F68A6C3-08E2-443A-A40C-67951995DA3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Tests", "Tests\Infrastructure.Tests\HexaTemplate.Infrastructure.Tests.csproj", "{93314775-7623-414F-B04A-4EB4D1294475}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlmoll.HexaTemplate.Infrastructure.Tests", "Tests\Infrastructure.Tests\jlmoll.HexaTemplate.Infrastructure.Tests.csproj", "{93314775-7623-414F-B04A-4EB4D1294475}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{92084467-BAD6-4820-BE7D-E9747062B1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,6 +39,10 @@ Global
 		{113AE2E0-CCAC-4FBD-AA36-AB4906FC5E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{113AE2E0-CCAC-4FBD-AA36-AB4906FC5E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{113AE2E0-CCAC-4FBD-AA36-AB4906FC5E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{03157756-EDA4-4496-94D2-43982A450275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{03157756-EDA4-4496-94D2-43982A450275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03157756-EDA4-4496-94D2-43982A450275}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,32 +55,31 @@ Global
 		{FE57825E-47B6-4D95-941F-7E90F6A960E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE57825E-47B6-4D95-941F-7E90F6A960E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE57825E-47B6-4D95-941F-7E90F6A960E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F68A6C3-08E2-443A-A40C-67951995DA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F68A6C3-08E2-443A-A40C-67951995DA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F68A6C3-08E2-443A-A40C-67951995DA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F68A6C3-08E2-443A-A40C-67951995DA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EBF5557-6A29-49CF-9005-82F9AC03FA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EBF5557-6A29-49CF-9005-82F9AC03FA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EBF5557-6A29-49CF-9005-82F9AC03FA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EBF5557-6A29-49CF-9005-82F9AC03FA77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93314775-7623-414F-B04A-4EB4D1294475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93314775-7623-414F-B04A-4EB4D1294475}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93314775-7623-414F-B04A-4EB4D1294475}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93314775-7623-414F-B04A-4EB4D1294475}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAC67492-78A0-493C-B9F7-0E5742E140F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99826C7A-4CA8-4F57-933B-7C32B53BA621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99826C7A-4CA8-4F57-933B-7C32B53BA621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99826C7A-4CA8-4F57-933B-7C32B53BA621}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99826C7A-4CA8-4F57-933B-7C32B53BA621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F68A6C3-08E2-443A-A40C-67951995DA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F68A6C3-08E2-443A-A40C-67951995DA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F68A6C3-08E2-443A-A40C-67951995DA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F68A6C3-08E2-443A-A40C-67951995DA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93314775-7623-414F-B04A-4EB4D1294475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93314775-7623-414F-B04A-4EB4D1294475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93314775-7623-414F-B04A-4EB4D1294475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93314775-7623-414F-B04A-4EB4D1294475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FE57825E-47B6-4D95-941F-7E90F6A960E1} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
-		{2F68A6C3-08E2-443A-A40C-67951995DA3B} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
 		{1EBF5557-6A29-49CF-9005-82F9AC03FA77} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
-		{93314775-7623-414F-B04A-4EB4D1294475} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
 		{99826C7A-4CA8-4F57-933B-7C32B53BA621} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
+		{2F68A6C3-08E2-443A-A40C-67951995DA3B} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
+		{93314775-7623-414F-B04A-4EB4D1294475} = {79AE3FC4-9E0F-47F9-AD38-9C347BE5E1C2}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "TuNombre",
+  "author": "jlmoll",
   "classifications": ["WebAPI", "Hexagonal Architecture"],
   "identity": "jlmoll.HexaTemplate",
   "name": "Hexagonal WebAPI template",
@@ -12,10 +12,10 @@
   "sourceName": "HexaTemplate",
   "preferNameDirectory": true,
   "primaryOutputs": [
-    { "path": "HexaTemplate.Api/HexaTemplate.Api.csproj" },
-    { "path": "HexaTemplate.Domain/HexaTemplate.Domain.csproj" },
-    { "path": "HexaTemplate.Application/HexaTemplate.Application.csproj" },
-    { "path": "HexaTemplate.Infrastructure/HexaTemplate.Infrastructure.csproj" }
+    { "path": "Api/jlmoll.HexaTemplate.Api.csproj" },
+    { "path": "Domain/jlmoll.HexaTemplate.Domain.csproj" },
+    { "path": "Application/jlmoll.HexaTemplate.Application.csproj" },
+    { "path": "Infrastructure/jlmoll.HexaTemplate.Infrastructure.csproj" }
   ],
   "symbols": {
     "company": {
