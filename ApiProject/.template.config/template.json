@@ -24,6 +24,12 @@
       "defaultValue": "YourCompany",
       "replaces": "jlmoll",
       "description": "The company name which is meant to be used in namespaces and other relevant places."
+    },
+    "serviceName": {
+      "type": "parameter",
+      "defaultValue": "Weather",
+      "replaces": "Weather",
+      "fileRename": "Weather"
     }
   }
 }
